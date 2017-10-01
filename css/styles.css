@@ -1,0 +1,150 @@
+.footer-list-features {
+  background-color: #1aa08d;
+  color: white;
+  padding: 40px; }
+  .footer-list-features section {
+    font-size: 18px; }
+    .footer-list-features section li {
+      margin-bottom: 10px; }
+
+footer p, footer ul {
+  text-align: center;
+  margin-top: 20px; }
+
+footer {
+  background-color: #2d2d2d;
+  color: white;
+  padding: 20px; }
+  @media (min-width: 500px) {
+    footer p {
+      text-align: right; } }
+  @media (min-width: 500px) {
+    footer ul {
+      text-align: left; } }
+
+/* HOME */
+#home .home-menu-bar {
+  margin-bottom: 0px; }
+  #home .home-menu-bar .container .navbar-header a.site-title,
+  #home .home-menu-bar .container .navbar-header a.site-title:link,
+  #home .home-menu-bar .container .navbar-header a.site-title:hover,
+  #home .home-menu-bar .container .navbar-header a.site-title:active,
+  #home .home-menu-bar .container .navbar-header a.site-title:visited {
+    color: #1aa08d; }
+
+#home .cover-showcase {
+  background-image: url("../img/site_showcase_bg.jpg");
+  color: white;
+  background-size: cover;
+  background-repeat: none; }
+  #home .cover-showcase .container {
+    padding: 0px; }
+    #home .cover-showcase .container .home-header-content {
+      margin-top: 100px; }
+      @media (max-width: 899px) {
+        #home .cover-showcase .container .home-header-content {
+          margin-bottom: 100px;
+          padding: 0 0px; } }
+    #home .cover-showcase .container .home-header-img {
+      margin-top: 60px; }
+  #home .cover-showcase h1 {
+    margin-top: 40px;
+    text-align: center; }
+    @media (min-width: 500px) {
+      #home .cover-showcase h1 {
+        text-align: left; } }
+    @media (min-width: 400px) {
+      #home .cover-showcase h1 {
+        font-size: 70px; } }
+    #home .cover-showcase h1 span {
+      color: #1aa08d; }
+  #home .cover-showcase p {
+    text-align: center;
+    margin-top: 30px; }
+    @media (min-width: 500px) {
+      #home .cover-showcase p {
+        text-align: left; } }
+    @media (min-width: 400px) {
+      #home .cover-showcase p {
+        font-size: 20px; } }
+
+#home .buttons-stores {
+  padding: 20px; }
+  #home .buttons-stores img {
+    display: block;
+    margin: 20px auto; }
+    @media (min-width: 500px) {
+      #home .buttons-stores img {
+        display: inline;
+        margin: 10px; } }
+  @media (min-width: 500px) {
+    #home .buttons-stores {
+      padding: 0;
+      margin-bottom: 20px; } }
+
+#home .products-list {
+  margin: 60px 0; }
+
+/* CONTACT */
+#contact header h1 {
+  background-color: #1aa08d;
+  margin-top: 0px;
+  padding: 20px;
+  padding-left: 150px;
+  color: white; }
+
+#contact .thumbnail {
+  margin-bottom: 50px; }
+
+#contact .home-menu-bar {
+  margin-bottom: 0px; }
+  #contact .home-menu-bar .container .navbar-header a.site-title,
+  #contact .home-menu-bar .container .navbar-header a.site-title:link,
+  #contact .home-menu-bar .container .navbar-header a.site-title:hover,
+  #contact .home-menu-bar .container .navbar-header a.site-title:active,
+  #contact .home-menu-bar .container .navbar-header a.site-title:visited {
+    color: #1aa08d; }
+
+#contact .contac-content-form {
+  margin-top: 20px; }
+
+#contact .container, #contact .captation, #contact .contact-p {
+  overflow-wrap: break-word; }
+
+@media (max-width: 500px) {
+  #contact .contact-us {
+    padding-left: 20px; } }
+
+/* ABOUT */
+#about .about-menu-bar {
+  margin-bottom: 0px; }
+  #about .about-menu-bar .container .navbar-header a.site-title,
+  #about .about-menu-bar .container .navbar-header a.site-title:link,
+  #about .about-menu-bar .container .navbar-header a.site-title:hover,
+  #about .about-menu-bar .container .navbar-header a.site-title:active,
+  #about .about-menu-bar .container .navbar-header a.site-title:visited {
+    color: #1aa08d; }
+
+#about header h1 {
+  background-color: #1aa08d;
+  margin-top: 0px;
+  padding: 20px;
+  padding-left: 150px;
+  color: white; }
+
+#about .thumbnail {
+  margin-bottom: 50px;
+  margin-top: 30px; }
+
+#about .about-panel-default {
+  margin-top: 30px; }
+
+#about .about-container {
+  margin-top: 50px; }
+
+#about .container, #about .captation, #about .about-p {
+  overflow-wrap: break-word; }
+
+@media (max-width: 500px) {
+  #about .about-us {
+    padding-left: 20px; } }

@@ -1,0 +1,56 @@
+/* ABOUT */
+@import "./vars";
+
+
+#about{
+  .about-menu-bar {
+    margin-bottom: 0px;
+    .container {
+      .navbar-header {
+        a.site-title,
+        a.site-title:link, 
+        a.site-title:hover, 
+        a.site-title:active, 
+        a.site-title:visited {
+          color: $green-site;
+        }
+      }
+    }
+  }
+  
+  header h1 {
+    background-color: $green-site;
+    margin-top: 0px;
+    padding: 20px;
+    padding-left:150px;
+    color: white;
+  }
+  
+  .thumbnail{
+    margin-bottom: 50px;
+    margin-top: 30px;
+  }
+
+  .about-panel-default {
+    margin-top: 30px;
+  }
+
+  .about-container{
+    margin-top: 50px;
+  }
+
+  .container, .captation, .about-p {
+    overflow-wrap: break-word;
+  }
+  @media(max-width: 500px){
+    .about-us {
+      padding-left: 20px;
+    }
+  }
+  // @media(max-width: 900px){
+  //   .about-us {
+  //     padding-left: 90px;
+  //   }
+  
+}
+

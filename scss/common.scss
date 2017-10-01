@@ -1,0 +1,36 @@
+.footer-list-features {
+  background-color: #1aa08d;
+  color: white;
+  padding: 40px;
+    
+
+  section {
+    font-size: 18px;
+    li {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+%element-footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+footer {
+  background-color: #2d2d2d;
+  color: white;
+  padding: 20px;
+  p {
+    @extend %element-footer;
+    @media (min-width: 500px) {
+      & { text-align: right; }
+    }
+  }
+  ul {
+    @extend %element-footer;
+    @media (min-width: 500px) {
+      & { text-align: left; }
+    }
+  }
+}

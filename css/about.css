@@ -1,0 +1,33 @@
+/* ABOUT */
+#about .about-menu-bar {
+  margin-bottom: 0px; }
+  #about .about-menu-bar .container .navbar-header a.site-title,
+  #about .about-menu-bar .container .navbar-header a.site-title:link,
+  #about .about-menu-bar .container .navbar-header a.site-title:hover,
+  #about .about-menu-bar .container .navbar-header a.site-title:active,
+  #about .about-menu-bar .container .navbar-header a.site-title:visited {
+    color: #1aa08d; }
+
+#about header h1 {
+  background-color: #1aa08d;
+  margin-top: 0px;
+  padding: 20px;
+  padding-left: 150px;
+  color: white; }
+
+#about .thumbnail {
+  margin-bottom: 50px;
+  margin-top: 30px; }
+
+#about .about-panel-default {
+  margin-top: 30px; }
+
+#about .about-container {
+  margin-top: 50px; }
+
+#about .container, #about .captation, #about .about-p {
+  overflow-wrap: break-word; }
+
+@media (max-width: 500px) {
+  #about .about-us {
+    padding-left: 20px; } }

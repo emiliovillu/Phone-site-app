@@ -1,0 +1,45 @@
+/* CONTACT */
+@import "./vars";
+
+#contact {
+  
+
+  header h1 {
+    background-color: $green-site;
+    margin-top: 0px;
+    padding: 20px;
+    padding-left:150px;
+    color: white;
+
+  }
+  .thumbnail{
+    margin-bottom: 50px;
+  }
+
+  .home-menu-bar {
+    margin-bottom: 0px;
+    .container {
+      .navbar-header {
+        a.site-title,
+        a.site-title:link, 
+        a.site-title:hover, 
+        a.site-title:active, 
+        a.site-title:visited {
+          color: $green-site;
+        }
+      }
+    }
+  }
+  .contac-content-form {
+    margin-top: 20px;
+  }
+  .container, .captation, .contact-p {
+    overflow-wrap: break-word;
+  }
+@media(max-width: 500px){
+    .contact-us {
+      padding-left: 20px;
+    }
+  }
+}
+

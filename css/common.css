@@ -1,0 +1,23 @@
+.footer-list-features {
+  background-color: #1aa08d;
+  color: white;
+  padding: 40px; }
+  .footer-list-features section {
+    font-size: 18px; }
+    .footer-list-features section li {
+      margin-bottom: 10px; }
+
+footer p, footer ul {
+  text-align: center;
+  margin-top: 20px; }
+
+footer {
+  background-color: #2d2d2d;
+  color: white;
+  padding: 20px; }
+  @media (min-width: 500px) {
+    footer p {
+      text-align: right; } }
+  @media (min-width: 500px) {
+    footer ul {
+      text-align: left; } }
